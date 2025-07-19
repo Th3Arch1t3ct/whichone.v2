@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="whichone.css">
+    <title>Which One</title>
+</head>
+<body>
+    <div class="h-screen w-full">
+        <!-- Main container with flexbox -->
+        <div id="main-container">
+            <!-- Far Left Column - White background with black text -->
+            <div id="left-text-column" class="text-column">
+                <div class="text-scroll-up" id="left-links-container">
+                    <!-- Links will be populated by JavaScript -->
+                </div>
+            </div>
+            
+            <!-- Middle Left Column - Scrolling Up -->
+            <div id="left-image-column" class="image-column">
+                <div class="scroll-up" id="left-image-container">
+                    <!-- Background images will be populated by JavaScript -->
+                </div>
+            </div>
+            
+            <!-- Middle Right Column - Scrolling Down -->
+            <div id="right-image-column" class="image-column">
+                <div class="scroll-down" id="right-image-container">
+                    <!-- Background images will be populated by JavaScript -->
+                </div>
+            </div>
+            
+            <!-- Far Right Column - Black background with white text -->
+            <div id="right-text-column" class="text-column">
+                <div class="text-scroll-down" id="right-links-container">
+                    <!-- Links will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="whichone.js"></script>
+</body>
+</html>
